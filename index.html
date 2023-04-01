@@ -1,0 +1,65 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Array</title>
+<!--    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/rtl_style.css">
+</head>
+
+<body>
+<main style="direction: ltr">
+<!--    <h1>pleace a select number betwen 10,20</h1>-->
+<!--    <input type="text" id="in1">-->
+<!--    <button id="btn" onclick="myFunction()">click</button>-->
+    <div id="demo"></div>
+    <select class="form-select" aria-label="Default select example" id="selectPart" onchange="selectPartName(this)">
+        <option selected disabled>select-part</option>
+        <option value="قلب">قلب</option>
+        <option value="شکستگی">شکستگی</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <p id="part_name_p"></p>
+    <select class="form-select" aria-label="Default select example" style="display: none" id="doctorsData" onchange="selectDoctorName(this)">
+        <option selected disabled value="انتخاب کنید" >نوع بیمای</option>
+    </select>
+    <p id="name_mariz"></p>
+    <table id="table" style="display: none">
+        <thead>
+        <tr>
+            <th>نام بیمار</th>
+            <th>نام دکتر</th>
+            <th>تاریخ ورود</th>
+            <th>تاریخ خروج</th>
+            <th>تنظمیات</th>
+        </tr>
+        </thead>
+        <tbody id="sick_table"></tbody>
+    </table>
+
+    <div onclick="showAlert('Erfan')">Show name</div>
+
+    <div id="div1" onclick="changeTexts()">
+        <p id="p1">This is a paragraph.</p>
+    </div>
+
+</main>
+<footer id="footer">
+</footer>
+<script rel="script" src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/learningFunctions.js"></script>
+</body>
+</html>

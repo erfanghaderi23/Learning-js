@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/upload.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+<input oninput="updateResult(this)" type="search" placeholder=  "Search..."/>
+
+<button type="submit" class="btn btn-primary float-right m-1" onclick="localStorage_Handler()">allUser</button>
+<div class="container-fluid result">
+    <div class="row m-2">
+        <div class="col-12 col-md-4">
+            <form class="was-validated bg-info p-1" id="formUser">
+                <div class="mb-3 mt-3">
+                    <label for="name" class="form-label">First name:</label>
+                    <input type="text" class="form-control" id="name" onchange="inputHandler(this)" value=""
+                           placeholder="Enter username" name="uname" required>
+                </div>
+
+                <div class="mb-3 mt-3">
+                    <label for="lastName" class="form-label">Last name:</label>
+                    <input type="text" class="form-control" id="lastName" onchange="inputHandler(this)" value=""
+                           placeholder="Enter username" name="lastName" required>
+
+                </div>
+
+                <div class="mb-3 mt-3">
+                    <label class="form-label">upload image:</label>
+                    <input type="file" accept="image/*" id="imageInputHandler" onchange="uploadHandler(event)" value=""
+                    >
+                    <img src="" id="uploaded_image" class="img-fluid d-flex" alt="image"
+                         style="width: 80px;height: 80px;object-fit: cover">
+                </div>
+
+                <div class="mb-3 mt-3">
+                    <label class="form-label" for="Description">Description:</label>
+                    <textarea id="Description" name="Description"
+                              onchange="inputHandler(this)"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">ارسال</button>
+            </form>
+            <!--END FORM-->
+        </div>
+        <!--ENDcard-->
+    </div>
+
+    <div id="card_container" class="dv_show_user row justify-content-center"></div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">ویرایش اطلاعات</h4>
+                    <button type="button" class="close" data-dismiss="modal" id="close_modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="editeForm">
+                        <div class="col-12 ">
+                            <div class="mb-3 mt-3">
+                                <label for="modal_name" class="form-label">First name:</label>
+                                <input type="text" class="form-control" id="modal_name" onchange="inputHandler(this)"
+                                       value=""
+                                       placeholder="Enter username" name="uname" required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3 mt-3">
+                                <label for="modal_lastName" class="form-label">Last name:</label>
+                                <input type="text" class="form-control" id="modal_lastName"
+                                       onchange="inputHandler(this)"
+                                       value=""
+                                       placeholder="Enter username" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3 mt-3">
+                                <label class="form-label">upload image:</label>
+                                <input type="file" accept="image/*" for="modal_image" id="modal_imageInputHandler"
+                                       onchange="Modal_uploadHandler(event)"
+                                       value="">
+
+                                <img src="" id="modal_image" class="img-fluid" alt="image" style="width: 50px"
+                                     height="50px">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3 mt-3">
+                                <label class="form-label" for="Description">Description:</label>
+                                <textarea id="modal_Description" name="Description" rows="2" cols="40 "
+                                          onchange="inputHandler(this)"
+                                          value="">
+                </textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="form_submit_button"
+                                onclick="modalFormHandler()">
+                            ارسال
+                        </button>
+
+                    </div>
+                </div>
+                <!--                <div class="modal-footer">-->
+
+                <!--                </div>-->
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/learning/uploadingFile.js"></script>
+<script rel="script" src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,17 @@
+.navbar-collapse {
+    justify-content: space-between;
+}
+.form-control{
+    width: auto !important;
+}
+
+.navbar-nav .dropdown-menu {
+    width: fit-content;
+}
+@media only screen and (min-width: 600px) {
+
+
+}
+.bg-menu {
+    background-color: #bfcee3!important;
+}

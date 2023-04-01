@@ -1,0 +1,190 @@
+@font-face {
+    font-family: IRANSans;
+    src: url(../../assets/fonts/iranSans.ttf) format("ttf");
+    src: url(../../assets/fonts/iranSans.woff) format("woff");
+    src: url(../../assets/fonts/iranSans.woff2) format("woff2");
+}
+
+body{
+    direction: rtl !important;
+    font-family: IRANSans !important;
+}
+p{
+    text-align: justify !important;
+}
+
+/**Text Align****/
+.dv-rtl-body .dv-text-index ,.dv-rtl-body .dv-index-afa ,.dv-rtl-body .dv-products-bg-index ,.dv-rtl-body .dv-width ,.dv-rtl-body .dv-footer-text ,.dv-rtl-body .dv-about-us-afa ,
+.dv-rtl-body h1,h2,h3,h4,h5,h6,.dv-rtl-body .dv-text ,
+.dv-rtl-body .dv-products-bg,.dv-rtl-body .dv-gray-text,.dv-rtl-body .dv-contact-gray-g, .dv-rtl-body .dv-menu-items , .dv-rtl-body .dv_certificate{
+    text-align: right !important;
+}
+
+.dv-rtl-body h2{
+    text-align: right;
+}
+.dv-rtl-body .dv-footer-icons-parent{
+    direction: rtl;
+    display: flex;
+}
+.dv-rtl-body .dv-footer-icons-parent .dv-footer-social-icon{
+    margin-left: 0.75em;
+    margin-right: 0;
+}
+/**** direction ltr****/
+.dv-rtl-body .dv-single-product {
+    direction: ltr !important;
+}
+
+.dv-rtl-body .dv-single-blog-form .dv-blog-btn ,.dv-rtl-body .dv-contact-form .dv-blog-btn{
+    float: right;
+}
+.dv-rtl-body .dv-list-items img ,.dv-rtl-body .icon-arrow-right2 ,.dv-rtl-body .icon-arrow-left2 {
+    transform: rotate(180deg);
+}
+.dv-rtl-body .dv-blog-search-icon{
+    left: 0 !important;
+    right: auto !important;
+}
+.dv-wave{
+    background-position: right !important;
+}
+.dv-rtl-body .dv-wave-bg{
+    background: url(../images/rtl_wave.png) no-repeat;
+    background-size: 24%;
+}
+.dv-rtl-body .dv_preview_image_modal{
+    direction: ltr !important;
+}
+@media screen and (max-width: 1200px){
+    .dv-rtl-body .dv-wave-bg{
+        background: url(../images/rtl_wave.png) no-repeat;
+        background-size: contain;
+    }
+}
+.dv-rtl-body .dv_close_modal_icon{
+    margin: -1rem auto -1rem -1rem;
+}
+.dv-rtl-body .dv-footer-title{
+    font-family: IRANSans !important;
+}
+.dv-rtl-body .dv-menu-items li a{
+    font-family: IRANSans!important;
+}
+.dv-rtl-body .dv-menu-items-single-product li a{
+    font-family: IRANSans!important;
+}
+.dv-rtl-body .dv-font-poppins{
+    font-family: IRANSans!important;
+}
+.dv-rtl-body .dv-blog-btn{
+    font-family: IRANSans!important;
+}
+
+.dv-rtl-body .dv-single-blog-comment{
+    font-family: IRANSans!important;
+}
+.dv-rtl-body .dv-single-blog-form textarea::placeholder{
+    font-family: IRANSans!important;
+}
+
+.dv-rtl-body .dv-single-blog-form input::placeholder{
+    font-family: IRANSans!important;
+}
+
+.dv-rtl-body .dv-blog-date{
+    font-family: IRANSans!important;
+}
+
+.dv-rtl-body .dv-contact-form textarea::placeholder{
+    font-family: IRANSans!important;
+}
+.dv-rtl-body .dv-contact-form input::placeholder{
+    font-family: IRANSans!important;
+}
+
+.dv-rtl-body .dv-index-btn{
+    font-family: IRANSans!important;
+}
+
+.dv-rtl-body .dv-index-p{
+    font-family: IRANSans!important;
+}
+.dv-rtl-body .dv-properties-title{
+    font-family: IRANSans!important;
+}
+.dv-rtl-body .dv-footer-tag{
+    font-family: IRANSans!important;
+}
+.dv-rtl-body .dv-dropdown-menu{
+    font-family: IRANSans!important;
+}
+.dv-rtl-body .dv-properties-text{
+    font-family: IRANSans!important;
+}
+.dv-rtl-body .dv-notFound{
+    font-family: IRANSans!important;
+}
+
+
+.dv-rtl-body .dv-arrow-index-next{
+    left: 0 !important;
+    right: auto !important;
+    color: var(--main-red);
+}
+.dv-rtl-body .dv-arrow-index-left{
+    right: 0 !important;
+    left: auto !important;
+    color: var(--main-red);
+}
+.dv-rtl-body .dv-rtl-price{
+    direction: rtl;
+}
+.dv-rtl-body .dv-language-selector{
+    left: 3rem!important;
+    right: auto !important;
+}
+.dv-rtl-body .dv-dropdown-menu{
+    text-align: right !important;
+    left: auto !important;
+    right: 0!important;
+}
+.dv-rtl-body .dv-index-arrow-next{
+    left: 15px;
+    right: auto!important;
+}
+
+.dv-rtl-body .dv-footer{
+    margin-right: 0 !important;
+}
+.dv-rtl-body .dv-blog-btn{
+    float: right;
+}
+
+@media screen and (max-width: 992px){
+    .dv-rtl-body .dv-toggler-btn{
+        left: 0 !important;
+        right: auto !important;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .dv-rtl-body .dv-position{
+        left: 3rem;
+        right: auto !important;
+    }
+
+}
+@media screen and (min-width: 1400.01px){
+    .dv-rtl-body .dv-position{
+        left: 5rem;
+        right: auto !important;
+    }
+
+}
+
+.apexcharts-xaxis-label{
+    direction: ltr;
+}
+.dv-rtl-body .dv-gallery-title{
+    text-align: right!important;
+}

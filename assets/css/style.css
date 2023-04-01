@@ -1,0 +1,131 @@
+/*@import url(https://fonts.googleapis.com/css?family=Roboto);*/
+
+/*:root {*/
+/*    --main-red: #E30613;*/
+/*    --main-red-hover: #c71111;*/
+/*    --light-blue: #03A9F4;*/
+/*    --facebook-blue: #2AA4F4;*/
+/*    --blue-carbon: #3D27D1;*/
+/*    --gray: #DBDBDB;*/
+/*    --light-gray: #B1B1B1;*/
+/*    --dark-gray: #3C3C3C;*/
+/*    --black: #212121;*/
+/*    --green: #379521;*/
+/*}*/
+
+
+/*@font-face {*/
+/*    font-family: Gilroy;*/
+/*    src: url(../../assets/fonts/Gilroy-Regular.ttf)*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: ButlerMd;*/
+/*    src: url(../../assets/fonts/Butler/Butler_Medium.otf);*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: PoppinsLight;*/
+/*    src: url(../../assets/fonts/Poppins-Light.ttf);*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: Pristina;*/
+/*    src: url(../fonts/PRISTINA.TTF);*/
+/*}*/
+
+/*html {*/
+/*    overflow-x: hidden;*/
+/*    !*width: 100%;*!*/
+/*    height: 100% !important;*/
+
+/*    !*width: 100vw !important;*!*/
+/*    !*margin: 0;*!*/
+/*    !*font-family: iranyekan !important;*!*/
+/*}*/
+
+/*body {*/
+/*    width: 100%;*/
+/*    !*width: 100vw;*!*/
+/*    !*width: 100vw !important;*!*/
+/*    !*height: 100%;*!*/
+/*    margin: 0;*/
+/*    font-family: Gilroy;*/
+/*    padding: 0;*/
+/*    font-size: 16px;*/
+/*    line-height: 24px !important;*/
+/*    overflow-x: hidden;*/
+/*    !*width: 100vw!important;*!*/
+
+/*}*/
+
+/*p {*/
+/*    line-height: 4.5vh;*/
+/*    text-align: justify !important;*/
+/*}*/
+
+
+/*a {*/
+/*    text-decoration: none !important*/
+/*}*/
+
+/*input:focus, button:focus, textarea:focus {*/
+/*    outline: none !important*/
+/*}*/
+
+/*::-webkit-scrollbar {*/
+/*    width: 1.5vh*/
+/*}*/
+
+/*::-webkit-scrollbar-track {*/
+/*    box-shadow: inset 0 0 5px grey;*/
+/*    border-radius: 1.5vh*/
+/*}*/
+
+/*::-webkit-scrollbar-thumb {*/
+/*    background: var(--main-red);*/
+/*    border-radius: 1.5vh*/
+/*}*/
+
+/*::-webkit-scrollbar-thumb:hover {*/
+/*    background: #b30000*/
+/*}*/
+
+/*ul {*/
+/*    padding: 0 !important;*/
+/*    list-style: none*/
+/*}*/
+
+/*input:focus {*/
+/*    box-shadow: none !important*/
+/*}*/
+
+/*input::placeholder, textarea::placeholder {*/
+/*    color: var(--light-gray) !important*/
+/*}*/
+
+
+.dv_show_user{
+    display: none;
+}
+
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
+.modal-header{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+
+
